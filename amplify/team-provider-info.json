@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bookscrud-dev-110537-authRole",
+      "UnauthRoleArn": "arn:aws:iam::912592071922:role/amplify-bookscrud-dev-110537-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::912592071922:role/amplify-bookscrud-dev-110537-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bookscrud-dev-110537-deployment",
+      "UnauthRoleName": "amplify-bookscrud-dev-110537-unauthRole",
+      "StackName": "amplify-bookscrud-dev-110537",
+      "StackId": "arn:aws:cloudformation:us-east-1:912592071922:stack/amplify-bookscrud-dev-110537/52911c00-a0c0-11ed-9e20-0a699326852f",
+      "AmplifyAppId": "db1m4ybydaj1f"
+    },
+    "categories": {
+      "api": {
+        "bookscrud": {}
+      }
+    }
+  }
+}
