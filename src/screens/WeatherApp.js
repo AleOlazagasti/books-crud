@@ -17,8 +17,8 @@ const WeatherApp = () => {
   return (
     <div>
       <h1>Sri Lanka</h1>
-      <h3>Max Temperature: {weather.apparent_temperature_max?.[0]} °C</h3>
-      <h3>Min Temperature: {weather.apparent_temperature_min?.[0]} °C</h3>
+      {/* <h3>Max Temperature: {weather.apparent_temperature_max?.[0]} °C</h3>
+      <h3>Min Temperature: {weather.apparent_temperature_min?.[0]} °C</h3> */}
     </div>
   )
 }
