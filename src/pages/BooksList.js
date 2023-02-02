@@ -65,6 +65,7 @@ const BooksList = () => {
           </nav>
         </div>
       </header>
+      <WeatherApp/>
       <div className={isFormOpen ? 'form-container' : 'form-none'}>
         <CrudForm 
           setUpdateInfo={setUpdateInfo}
@@ -77,7 +78,6 @@ const BooksList = () => {
         isLoading && <Loader/>
       }
       <motion.div className='users-container' variants={item}>
-        <WeatherApp/>
         {
           books?.map(_book => (
             <Book

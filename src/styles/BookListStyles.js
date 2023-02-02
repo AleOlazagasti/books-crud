@@ -69,7 +69,6 @@ export const ContainerBooks = styled.div`
     flex-wrap: wrap;
     gap: 20px;
     padding: 60px;
-    margin-top: 210px;
     box-sizing: border-box;
     background-color: #956016c9;
   }

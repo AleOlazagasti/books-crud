@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { ContainerWeather } from '../styles/WeatherAppStyles'
 
 const WeatherApp = () => {
   const [api, setApi] = useState({})
@@ -15,11 +16,11 @@ const WeatherApp = () => {
   }, [])
   
   return (
-    <div>
+    <ContainerWeather>
       <h1>Sri Lanka</h1>
       <h3>Max Temperature: {api.apparent_temperature_max?.[0]} °C</h3>
       <h3>Min Temperature: {api.apparent_temperature_min?.[0]} °C</h3>
-    </div>
+    </ContainerWeather>
   )
 }
 
